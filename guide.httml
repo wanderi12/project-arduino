@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>Ryles Water Company</title>
+</head>
+<body>
+    <header>
+        <h1>Ryles Water Company</h1>
+        <nav>
+            <ul>
+                <li><a href="applicationnew.html">Application</a></li>
+                <li><a href="paymentnew.html">Payment</a></li>
+                <li><a href="#guide">Guide</a></li>
+                <li><a href="profilenew.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <h2>Understanding Your Water Usage at Home</h2>
+
+      <p>Water is an essential part of our daily lives, and understanding how we use it can help us make more informed choices. This section will guide you through the process of assessing your water consumption at home, helping you become a more mindful water user.</p>
+
+      <h2>Review your water bills</h2>
+
+      <p>A simple method for gauging your personal water consumption is by examining your water bill. Don’t just focus on the payment amount, though; pay attention to the actual water usage.</p>
+
+     <p>Many utility companies offer a detailed breakdown of your charges in the “billing detail” or “summary of charges” section.</p>
+
+    <p>It’s important to be aware that some utilities measure both the water coming into your house and the wastewater leaving through the sewer. However, many utilities use a single meter on your property and calculate charges based on the water entering your house.</p>
+
+    <h2>Check for leaks</h2>
+
+    <p>Unusual dripping sounds can indicate hidden leaks in your plumbing. Taking on the role of an investigator, you can locate and fix these leaks, which not only saves water but also preserves your financial resources. The average household actually loses a whopping 10,000 gallons of water due to sneaky leaks every year. If we round that up, that’s over 25 gallons down the drain daily! And get this, about one in ten homes suffers from even bigger leaks that waste up to a staggering 90 gallons a day!</p>
+    
+    <p>So, if you’re wondering how to locate and fix these water leaks in your home, here’s a simple way to do it:</p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ryles Water Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+body {
+    background: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background-color: #008080;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.login-key {
+    height: 100px;
+    font-size: 80px;
+    line-height: 100px;
+    background: -webkit-linear-gradient(#27EF9F, #0DB8DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.login-title {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ECF0F5;
+    background-color: #008080 ;
+}
+
+.login-form {
+    margin-top: 25px;
+    text-align: left;
+}
+
+input[type=text] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+    color: #ECF0F5;
+}
+
+input[type=password] {
+    background-color: #1A2226;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    color: #ECF0F5;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    outline: 0px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 2px solid #0DB8DE;
+    outline: 0;
+    background-color: #1A2226;
+    color: #ECF0F5;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0;
+}
+
+label {
+    margin-bottom: 0px;
+}
+
+.form-control-label {
+    font-size: 10px;
+    color: #6C6C6C;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn-outline-primary {
+    border-color: #0DB8DE;
+    color: #0DB8DE;
+    border-radius: 0px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn-outline-primary:hover {
+    background-color: #0DB8DE;
+    right: 0px;
+}
+
+.login-btm {
+    float: left;
+}
+
+.login-button {
+    padding-right: 0px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+
+.login-text {
+    text-align: left;
+    padding-left: 0px;
+    color: #A2A4A4;
+}
+
+.loginbttm {
+    padding: 0px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*//function editData() {
+            
+             Get the parent row of the clicked button
+            let row = button.parentNode.parentNode;
+            
+            // Get the cells within the row
+            let admCell = row.cells[0];
+            let subjectCell = row.cells[1];
+            let gradesCell = row.cells[2];
+            let marksCell = row.cells[3];
+            let imageCell =row.Cells[4]
+            // Prompt the user to enter updated values
+            let admInput =
+                prompt("Enter the updated name:",
+                    admCell.innerHTML);
+            let subjectInput =
+                prompt("Enter the updated email:",
+                    subjectCell.innerHTML);
+            let gradesInput =
+                prompt("Enter the updated mobile details:",
+                    gradesCell.innerHTML
+                );
+            let marksInput =
+                prompt("Enter the updated address:",
+                    marksCell.innerHTML
+                );
+             let imageInput =
+                prompt("Enter the updated address:",
+                    imageCell.innerHTML
+                );
+            // Update the cell contents with the new values
+            admCell.innerHTML = admInput;
+            subjectCell.innerHTML = subjectInput;
+            gradesCell.innerHTML = gradesInput;
+            marksCell.innerHTML = marksInput;
+            imageCell.innerHTML = imageInput;
+        }
+        */

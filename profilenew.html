@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>Ryles Water Company</title>
+</head>
+<body>
+    <header>
+        <h1>Ryles Water Company</h1>
+        <nav>
+            <ul>
+                <li><a href="applicationnew.html">Application</a></li>
+                <li><a href="paymentnew.html">Payment</a></li>
+                <li><a href="guide.html">Guide</a></li>
+                <li><a href="profilenew.php">Profile</a></li> <!-- Updated link to profilenew.php -->
+            </ul>
+        </nav>
+    </header>
+
+    <div class="profile-container">
+        <div class="profile-header">
+            <h1>User Profile</h1>
+        </div>
+
+        <!-- Your existing profile form here -->
+        <form action="profilenew.php" method="post">
+            <div class="profile-content">
+                <div class="profile-picture">
+                    <img id="user-pic" src="default-profile-pic.jpg" alt="User Profile Picture" height="100px" width="100px">
+                    <input type="file" id="upload-pic" accept="image/*" onchange="previewImage(this)"required>
+                </div>
+
+                <div class="user-details">
+                    <label for="user-name">Name:</label>
+                    <input type="text" id="user-name" name="user-name" placeholder="John Doe"required><br>
+
+                    <label for="user-email">Email:</label>
+                    <input type="email" id="user-email" name="user-email" placeholder="john.doe@example.com"required><br>
+
+                    <label for="user-contact">Contact:</label>
+                    <input type="tel" id="user-contact" name="user-contact" placeholder="123-456-7890"required><br>
+
+                    <label for="user-address">Address:</label>
+                    <textarea id="user-address" name="user-address" placeholder="123 Main Street, City, Country"required></textarea><br>
+                </div>
+            </div>
+
+            <button type="submit">Save Profile</button>
+        </form>
+    </div>
+
+    <script>
+        function previewImage(input) {
+            const userPic = document.getElementById('user-pic');
+
+            if (input.files && input.files[0]) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    userPic.src = e.target.result;
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2024 Ryles Water Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
